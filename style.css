@@ -1,0 +1,98 @@
+/*Colors and fonts*/
+
+body {
+background-color: #E9806E;
+color: rgb(10, 10, 10);
+font-size: 18px
+font-weight: lighter;
+}
+
+h1{
+color: #FFD046;
+font-family: 'lacquer', sans-serif;
+font-weight: 900; 
+}
+
+h2{
+color: #FFD046;
+font-family: 'Lacquer', sans-serif;
+font-weight: 500;
+}
+
+h3{
+color: #FFD046;
+font-family: 'lacquer', sans-serif;
+font-weight: 500
+}
+
+h4{
+color: #FFD046;
+font-family: 'lacquer', sans-serif;
+}
+
+a{
+text-decoration: none;
+color: #222A68;
+font-weight: 600;
+font-size: 16px;
+}
+
+a:hover {
+	color: #960200;
+}
+
+
+/* Custom design with class */
+.contaigner {
+	width: 700px
+	margin: 60px auto;
+}
+
+
+#images {
+	border-radius: 50%;
+}
+
+.card-white {
+    background: white;
+    padding: 20px;
+    box-shadow: 60px 40px 40px rgba(30,30,30,0.2);
+    border-radius: 4px;
+    margin: 20px 30px;
+    text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #960200;
+	color: white;
+	padding: 25px 26px
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: #FFD046;
+	color: white; 
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px
+	}
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 400px
+	}
+}
+
+
